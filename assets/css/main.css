@@ -2911,14 +2911,6 @@ input, select, textarea {
 		cursor: default;
 	}
 
-		header > .date {
-			display: block;
-			font-size: 0.8rem;
-			height: 1;
-			margin: 0 0 1rem 0;
-			position: relative;
-		}
-
 		header > p {
 			font-style: italic;
 		}
@@ -2958,28 +2950,6 @@ input, select, textarea {
 				text-align: center;
 			}
 
-			header.major > .date {
-				font-size: 1rem;
-				margin: 0 0 4rem 0;
-			}
-
-				header.major > .date:before, header.major > .date:after {
-					content: '';
-					display: block;
-					position: absolute;
-					top: 50%;
-					width: calc(50% - 6rem);
-					border-top: solid 2px;
-				}
-
-				header.major > .date:before {
-					left: 0;
-				}
-
-				header.major > .date:after {
-					right: 0;
-				}
-
 		@media screen and (max-width: 736px) {
 
 			header.major {
@@ -2987,10 +2957,6 @@ input, select, textarea {
 			}
 
 		}
-
-	header.major .date:before, header.major .date:after {
-		border-top-color: #eeeeee;
-	}
 
 /* Table */
 
@@ -3951,10 +3917,6 @@ input, select, textarea {
 
 		#footer ul.icons.alt li a.icon:hover:before {
 			box-shadow: inset 0 0 0 2px #18bfef;
-		}
-
-		#footer header.major .date:before, #footer header.major .date:after {
-			border-top-color: #e2e2e2;
 		}
 
 		#footer table tbody tr {
